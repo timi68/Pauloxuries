@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navigation bar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="navigation.css">
+</head>
+
+<body>
+  <header class="main-site-header">
+    <div class="toggler" onclick="document.querySelector('#navbar').classList.toggle('show')">
+      <span class="toggle_svg">
+        <svg width="19" height="13" viewBox="0 0 19 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M0.5 0.25H18.5V2.33333H0.5V0.25ZM5 5.45833H18.5V7.54167H5V5.45833ZM10.625 10.6667H18.5V12.75H10.625V10.6667Z"
+            fill="white" />
+        </svg>
+      </span>
+    </div>
+
+    <div class="navigation-wrapper" id="navbar">
+      <nav class="navigation">
+        <div class="toggler" onclick="document.querySelector('#navbar').classList.toggle('show')">
+          <span class="toggle_svg">
+            <svg width="19" height="13" viewBox="0 0 19 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M0.5 0.25H18.5V2.33333H0.5V0.25ZM5 5.45833H18.5V7.54167H5V5.45833ZM10.625 10.6667H18.5V12.75H10.625V10.6667Z"
+                fill="white" />
+            </svg>
+          </span>
+        </div>
+        <ul class="nav-list">
+          <li class="list-item">
+            <div class="auth-wrapper">
+              <div class="login_register">
+                <a href="" class="href_link">
+                  <span>Login | Register</span>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="sub-group-links">
+              <ul class="sub-list">
+                <li class="sub-list-item cart-link">
+                  <a href="https://pauloxuries/cart" class="link cart-href">
+                    <div class="cart-icon link-icon">
+                      <img src="/images/cart_svg.svg" alt="cart-icon">
+                    </div>
+                    <div class="cart-text link-text">
+                      <span>Cart</span>
+                    </div>
+                    <div class="cart-count">
+                      <span>0</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="sub-list-item tracking-order-link">
+                  <a href="https://pauloxuries/track-order" class="link tracking-href">
+                    <div class="link-icon">
+                      <img src="/images/location.svg" alt="cart-icon">
+                    </div>
+                    <div class="link-text">
+                      <span>Tracking Order</span>
+                    </div>
+                  </a>
+                </li>
+                <li class="sub-list-item">
+                  <a href="tel:+2349017241037" class="link contact-href">
+                    <div class="link-icon">
+                      <img src="/images/phone.svg" alt="cart-icon">
+                    </div>
+                    <div class="link-text">
+                      <span>Contact us</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="categories-wrapper">
+              <div class="title">
+                <div class="span text">Categories</div>
+              </div>
+              <ul class="categories-list">
+                <li class="category">
+                  <a href="https://pauloxuries.com/shop" class="link">
+                    <span class="link-text">
+                      Shop
+                    </span>
+                  </a>
+                </li>
+                <li class="category">
+                  <a href="https://pauloxuries.com/shop" class="link">
+                    <span class="link-text">
+                      Clothing
+                    </span>
+                  </a>
+                </li>
+                <li class="category">
+                  <a href="https://pauloxuries.com/shop" class="link">
+                    <span class="link-text">
+                      Jewellery
+                    </span>
+                  </a>
+                </li>
+                <li class="category">
+                  <a href="https://pauloxuries.com/shop" class="link">
+                    <span class="link-text">
+                      Casuals
+                    </span>
+                  </a>
+                </li>
+                <li class="category">
+                  <a href="https://pauloxuries.com/shop" class="link">
+                    <span class="link-text">
+                      Health & Beauty
+                    </span>
+                  </a>
+                </li>
+                <li class="category">
+                  <a href="https://pauloxuries.com/shop" class="link">
+                    <span class="link-text">
+                      Shoes
+                    </span>
+                  </a>
+                </li>
+                <li class="category">
+                  <a href="https://pauloxuries.com/shop" class="link">
+                    <span class="link-text">
+                      Accessories
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="list-item">
+            <div class="advantage-wrapper">
+              <ul>
+                <li class="shipping"> <img src="/images/mdi_truck-fast-outline.svg" alt="shipping truck"> <a
+                    href="http://pauloxuries.com/order-shipping/">
+                    Free Shipping For You </a> </li>
+                <li class="Money"> <img src="/images/emojione-monotone_money-with-wings.svg" alt="money with wings"> <a
+                    href="http://pauloxuries.com/returns-refunds/">Money Back Guarantee </a>
+                </li>
+                <li class="Offer"> <img src="/images/bx_bxs-gift.svg" alt=""> <a href="#Special weekly Offer "> Enjoy
+                    Free
+                    Gift For You </a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+</body>
+
+</html>
